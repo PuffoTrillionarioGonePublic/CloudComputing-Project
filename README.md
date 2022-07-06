@@ -11,7 +11,7 @@ time hadoop jar target/cloud-project-1.0-SNAPSHOT.jar /inputs/title.basics.tsv /
 ```sh
 cd hadoop/test-hadoop
 mvn package
-time hadoop jar test-hadoop/target/test-hadoop-1.0-SNAPSHOT.jar hadoop-optimized/out/ hadoop-optimized/join/ hadoop-optimized/test-results 2>&1
+time hadoop jar target/test-hadoop-1.0-SNAPSHOT.jar /out/bf /out/merge /out/test-results
 ```
 
 
